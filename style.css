@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 10px 10px;
+    width: 100%;
+    min-width: 550px;
+    color: #519975;
+    background-color: #211d1b;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 15px;
+}
+::selection{
+    color: #211830;
+    background-color: #519975;
+}
+::-moz-selection{
+    color: #211830;
+    background-color: #519975;
+}
+
+textarea{
+    left: -1000px;
+    position: absolute;
+}
+
+.cursor{
+    font-size: 15px;
+    height: 1.5em;
+    width: 10px;
+    display: inline-block;
+    color: #73abad;
+    background-color: #73abad;
+    animation: blinker is linear infinite;
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+
+#command {
+    cursor: text;
+    height: 50px;
+    color: #73abad;
+}
+
+#getter{
+    line-height: 1.3em;
+}
+
+p{
+    display: block;
+    line-height: 1.6em;
+    margin: 0 0 6px 0;
+    overflow: visible;
+    white-space: normal;
+}
+
+/* Remove input box border and background */
+#terminal-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: inherit;
+    font-family: inherit;
+}
+
+/* Hide scrollbars */
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Hide blinking cursor box */
+.cursor {
+    display: none;
+}
+
+/* Layout & spacing improvements for terminal */
+.terminal{
+    max-width: 920px; /* keeps content from stretching too wide */
+    margin: 24px auto; /* center horizontally and reduce top spacing */
+    padding: 14px 20px; /* inner breathing room so text isn't flush to the edge */
+    box-sizing: border-box;
+}
+
+.terminal .header .banner {
+    margin: 0 0 10px 0;
+    white-space: pre-wrap; /* allow banner to wrap on small screens */
+    line-height: 1.05; /* tighten the ascii art vertical spacing slightly */
+    font-size: 1.05em;
+}
+
+.terminal-content{
+    padding: 6px 0;
+    line-height: 1.6; /* more vertical spacing between lines */
+    letter-spacing: 0.2px;
+    color: inherit;
+    white-space: pre-wrap; /* preserve newlines but wrap long lines */
+}
+
+.output .text{
+    display: block;
+    margin: 4px 0; /* reduce vertical gap between output lines */
+    white-space: pre-wrap;
+}
+
+/* Command list column (left side) and glow effect */
+.cmd{
+    display: inline-block;
+    width: 110px; /* left column width */
+    color: #66d19a;
+    text-align: left;
+    padding-right: 10px;
+}
+.desc{
+    color: #8fb99b;
+}
+.cmd.glow{
+    color: #7ee0a5;
+    text-shadow: 0 0 6px rgba(126,224,165,0.35), 0 0 12px rgba(126,224,165,0.15);
+}
+.cmd.glow.blink{
+    animation: glowPulse 2s infinite;
+}
+
+/* Output color requested */
+.output .text{
+    color: #96664b; /* user requested color for output */
+}
+
+/* Links inside terminal output */
+.output a{
+    color: #66d19a;
+    text-decoration: underline;
+}
+.output a:hover{
+    color: #8ef0b0;
+}
+
+.input-line{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.prompt{
+    color: #66d19a;
+    margin-right: 6px;
+    flex: none;
+}
+
+#terminal-input{
+    flex: 1 1 auto;
+    min-width: 60px;
+    font-size: inherit;
+    line-height: 1.5;
+    padding: 2px 0;
+}
+
+/* Small screens: reduce max-width and padding */
+@media (max-width: 600px){
+    .terminal{
+        margin: 12px;
+        padding: 12px;
+        max-width: none;
+    }
+}

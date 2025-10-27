@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shantanu Rathod | Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal">
+        <div class="header" id="banner">
+            <pre class="banner"> _____ _                 _                    
+/  ___| |               | |                   
+\ `--.| |__   __ _ _ __ | |_ __ _ _ __  _   _ 
+ `--. \ '_ \ / _` | '_ \| __/ _` | '_ \| | | |
+/\__/ / | | | (_| | | | | || (_| | | | | |_| |
+\____/|_| |_|\__,_|_| |_|\__\__,_|_| |_|\__,_|
+Welcome to Shantanu's Interactive Terminal</pre>
+        </div>
+
+        <div class="terminal-content" id="terminal-content">
+            <div class="output">
+                <span class="text">For a list of available commands, type 'help'</span>
+            </div>
+        </div>
+
+        <div class="input-line">
+            <span class="prompt">guest@shantanu:~$</span>
+            <input type="text" id="terminal-input" autofocus>
+            <span class="cursor"></span>
+        </div>
+    </div>
+
+    <script src="commands.js"></script>
+    <script src="main.js"></script>
+    <script src="function.js"></script>
+</body>
+</html>
