@@ -59,14 +59,13 @@ const commands = {
     ];
 },
     
-cv: () => {
+    cv: () => {
     return [
         "You can view or download my resume here:",
         "",
-        '<a href="assets/Shantanu Rathod - Dotnet Developer - Resume.pdf" target="_blank">📄 View Resume</a>'    ];
+        '<a href="assets/Shantanu_Rathod_Resume.pdf" target="_blank">📄 View Resume</a>'    ];
 },
 
-    
     projects: () => {
         return [
             "Projects:",
