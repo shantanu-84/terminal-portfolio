@@ -77,7 +77,7 @@ const commands = {
             "",
             '<a href="https://github.com/shantanu-84/InternDB" target="_blank">🎓 InternDB</a>',
             '<a href="https://github.com/shantanu-84/terminal-portfolio" target="_blank">🎓 terminal-portfolio</a>',
-            "PlantBuddy   in progress.....",
+            ">>PlantBuddy           in progress.....",
         ];
     },
     
