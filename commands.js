@@ -52,7 +52,7 @@ const commands = {
     
     social: () => {
     return [
-        "Connect with me:",
+        "Connect with me>>",
         "",
         '<a href="https://github.com/shantanu-84" target="_blank">📂 GitHub</a>',
         '<a href="https://www.linkedin.com/in/shantanu84/" target="_blank">💼 LinkedIn</a>',
@@ -62,14 +62,14 @@ const commands = {
     
     cv: () => {
     return [
-        "You can view or download my resume here:",
+        "You can view or download my resume here>>",
         "",
         '<a href="assets/Shantanu_Rathod_Resume.pdf" target="_blank">📄 View Resume</a>'    ];
 },
 
     projects: () => {
         return [
-            "Projects:",
+            "Projects>>",
             "",
             "Still curating... most projects are offline, on GitHub.",
             "But Here are some:",
@@ -82,20 +82,20 @@ const commands = {
     
     skills: () => {
         return [
-            "My Skills:",
+            "My Skills>>",
             "",
-            "Programming Languages: C#, Python, SQL, JavaScript, HTML, CSS",
-            "Frameworks: .NET Core, ASP.NET MVC, Entity Framework, LINQ, Blazor",
-            "Databases: Microsoft SQL Server, SQLite",
-            "Tools & IDEs: Visual Studio, VS Code, Git",
-            "Cloud: AWS, Google Cloud Platform",
-            "Other: Power BI, WPF, TCP/UDP Socket Programming"
+            ">Programming Languages: C#, Python, SQL, JavaScript, HTML, CSS",
+            ">Frameworks: .NET Core, ASP.NET MVC, Entity Framework, LINQ, Blazor",
+            ">Databases: Microsoft SQL Server, SQLite",
+            ">Tools & IDEs: Visual Studio, VS Code, Git",
+            ">Cloud: AWS, Google Cloud Platform",
+            ">Other: Power BI, WPF, TCP/UDP Socket Programming"
         ];
     },
     
     email: () => {
     return [
-        "📧 You can reach me at:",
+        "You can reach me at>>",
         "",
         '<a href="mailto:shantanurathod3864@gmail.com" target="_blank">✉️ shantanurathod3864@gmail.com</a>'
     ];
@@ -110,7 +110,7 @@ const commands = {
         '<a href="https://www.amazon.com/Vata-Marathi-VYANKATESH-MADGULKAR-ebook/dp/B01N5NKZTI" target="_blank">vaata</a>',
         '<a href="https://www.bookganga.com/eBooks/Books/details/5385807112520881312" target="_blank">afriketil sahas</a>',
         '<a href="https://www.amazon.in/Shyamchi-Aai-Sane-Guruji/dp/8196132026" target="_blank">shyamchi aai</a>',
-        "read, read & more read...."    
+        "read, read & more read😌...."    
     ];
 },
     
