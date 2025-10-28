@@ -4,7 +4,7 @@ const commands = {
         return [
             "Available commands:",
             "",
-            "cv               - view my resume",
+            "cv               - resume first!!!",
             "whois            - who is Shantanu?",
             "whoami           - who are you?",
             "social           - display my social media links",
