@@ -38,9 +38,10 @@ const commands = {
         "🎓 Fresh B.Tech grad: Ready to take on new challenges and learn every day.",
         "",
         "🧩 What I love:",
-        "> Clean code",
-        "> Smart databases",
-        "> Building tools people actually use"
+        "> umm... coding stuff",
+        "> curious about ideas",
+        "> reading what i love",
+        "> me time"
     ];
 },
 
