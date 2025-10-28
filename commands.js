@@ -4,16 +4,17 @@ const commands = {
         return [
             "Available commands:",
             "",
-            "cv               - View my resume",
-            "whois            - Who is Shantanu?",
-            "whoami           - Who are you?",
-            "social           - Display my social media links",
-            "projects         - View coding projects",
-            "skills           - View my skills",
-            "email            - Send me an email",
-            "history          - View command history",
-            "help             - You obviously already know what this does",
-            "clear            - Clear the terminal"
+            "cv               - view my resume",
+            "whois            - who is Shantanu?",
+            "whoami           - who are you?",
+            "social           - display my social media links",
+            "projects         - view coding projects",
+            "skills           - view my skills",
+            "email            - send me an email",
+            "reading          - books i have read",
+            "history          - view command history",
+            "help             - you obviously already know what this does",
+            "clear            - clear the terminal"
         ];
     },
     
@@ -99,7 +100,23 @@ const commands = {
         '<a href="mailto:shantanurathod3864@gmail.com" target="_blank">✉️ shantanurathod3864@gmail.com</a>'
     ];
 },
+    reading: () => {
+    return [
+        "What I've Been Reading Recently",
+        "Some of there marathi books!",
+        "actually no, some of english books in marathi book collection😉",
+        "",
+        '<a href="https://www.goodreads.com/book/show/127441416-the-diary-of-a-young-girl" target="_blank">the diary of a young girl</a>',
+        '<a href="https://www.goodreads.com/book/show/10959.Sophie_s_World" target="_blank">sophie_s world</a>',
+        '<a href="https://www.bookganga.com/eBooks/Books/Details/4727317762841636880" target="_blank">eka ranvedyachi shodhyatra</a>',
+        '<a href="https://www.amazon.com/Vata-Marathi-VYANKATESH-MADGULKAR-ebook/dp/B01N5NKZTI" target="_blank">vaata</a>',
+        '<a href="https://www.bookganga.com/eBooks/Books/details/5385807112520881312" target="_blank">afriketil sahas</a>',
+        '<a href="https://www.amazon.in/Shyamchi-Aai-Sane-Guruji/dp/8196132026" target="_blank">shyamchi aai</a>',
 
+
+         
+    ];
+},
     
     history: () => {
         if (commandHistory.length === 0) {
