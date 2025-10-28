@@ -124,6 +124,3 @@ banner.addEventListener('click', () => {
     window.location.reload();
 });
 
-// Console welcome message
-console.log('%c Welcome to Shantanu\'s Terminal! ', 'background: #000; color: #0f0; font-size: 20px; padding: 10px;');
-console.log('%c Type commands in the terminal below ', 'background: #000; color: #0f0;');
