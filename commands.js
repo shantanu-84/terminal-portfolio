@@ -102,19 +102,15 @@ const commands = {
 },
     reading: () => {
     return [
-        "What I've Been Reading Recently",
-        "Some of there marathi books!",
-        "actually no, some of english books in marathi book collection😉",
+        "What I've Been Reading Recently>>",
         "",
         '<a href="https://www.goodreads.com/book/show/127441416-the-diary-of-a-young-girl" target="_blank">the diary of a young girl</a>',
-        '<a href="https://www.goodreads.com/book/show/10959.Sophie_s_World" target="_blank">sophie_s world</a>',
-        '<a href="https://www.bookganga.com/eBooks/Books/Details/4727317762841636880" target="_blank">eka ranvedyachi shodhyatra</a>',
+        '<a href="https://www.goodreads.com/book/show/10959.Sophie_s_World" target="_blank">sophie^s world</a>',
+        '<a href="https://www.bookganga.com/eBooks/Books/Details/4727317762841636880" target="_blank">eka raanvedyachi shodhyatra</a>',
         '<a href="https://www.amazon.com/Vata-Marathi-VYANKATESH-MADGULKAR-ebook/dp/B01N5NKZTI" target="_blank">vaata</a>',
         '<a href="https://www.bookganga.com/eBooks/Books/details/5385807112520881312" target="_blank">afriketil sahas</a>',
         '<a href="https://www.amazon.in/Shyamchi-Aai-Sane-Guruji/dp/8196132026" target="_blank">shyamchi aai</a>',
-
-
-         
+        "read, read & more read...."    
     ];
 },
     
