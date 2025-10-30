@@ -65,7 +65,7 @@ const commands = {
     return [
         "You can view or download my resume here>>",
         "",
-        '<a href="assets/Shantanu_Rathod_Resume.pdf" target="_blank">📄 View Resume</a>'    ];
+        '<a href="assets/shantanu.pdf" target="_blank">📄 View Resume</a>'    ];
 },
 
     projects: () => {
