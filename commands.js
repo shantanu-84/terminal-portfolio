@@ -33,7 +33,7 @@ const commands = {
         "> SQL Server | LINQ | Python | HTML/CSS",
         "",
         "🛠️ Currently building:",
-        "> PlanBuddy",
+        "> PlantBuddy - Smart Plant Information Widget",
         "",
         "🎓 Fresh B.Tech grad: Ready to take on new challenges and learn every day.",
         "",
@@ -111,7 +111,7 @@ const commands = {
         '<a href="https://www.amazon.com/Vata-Marathi-VYANKATESH-MADGULKAR-ebook/dp/B01N5NKZTI" target="_blank">vaata</a>',
         '<a href="https://www.bookganga.com/eBooks/Books/details/5385807112520881312" target="_blank">afriketil sahas</a>',
         '<a href="https://www.amazon.in/Shyamchi-Aai-Sane-Guruji/dp/8196132026" target="_blank">shyamchi aai</a>',
-        "read, read & more read😌...."    
+        "read, read & read😌...."    
     ];
 },
     
