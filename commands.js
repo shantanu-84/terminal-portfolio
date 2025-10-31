@@ -57,7 +57,7 @@ const commands = {
         "",
         '<a href="https://github.com/shantanu-84" target="_blank">📂 GitHub</a>',
         '<a href="https://www.linkedin.com/in/shantanu84/" target="_blank">💼 LinkedIn</a>',
-        '<a href="https://x.com/shantanu84_" target="_blank">📥 Twitter</a>'
+        '<a href="https://x.com/shantanu84_" target="_blank">📥 X</a>'
     ];
 },
     
